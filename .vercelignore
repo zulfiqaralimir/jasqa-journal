@@ -1,0 +1,18 @@
+# Sanity Studio files (not needed for frontend deployment)
+/sanity
+/studio
+
+# Local environment
+.env.local
+
+# Development
+*.log
+.DS_Store
+
+# Build artifacts
+.turbo
+
+# Testing
+coverage/
+*.test.ts
+*.spec.ts
