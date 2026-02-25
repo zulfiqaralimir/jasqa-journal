@@ -1,18 +1,3 @@
-# Sanity Studio files (not needed for frontend deployment)
-/sanity
-/studio
-
-# Local environment
+# Only ignore the studio folder for Vercel deployment
+studio/
 .env.local
-
-# Development
-*.log
-.DS_Store
-
-# Build artifacts
-.turbo
-
-# Testing
-coverage/
-*.test.ts
-*.spec.ts
